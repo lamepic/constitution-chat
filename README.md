@@ -2,7 +2,7 @@
 
 > Commandline chatbot to learn about the constituition of ghana!
 
-This chatbot helps you learn about the constituion of ghana, it can answer any questions that relates to the 1996 constituition.
+This chatbot helps you learn about the constituion of ghana, it can answer any questions that relates to the 1996 constituition of Ghana. Have fun!.
 
 ![](header.png)
 
@@ -10,6 +10,7 @@ This chatbot helps you learn about the constituion of ghana, it can answer any q
 
 1. Python3 (<https://www.python.org/>)
 2. pipenv (<https://pipenv.pypa.io/en/latest/>)
+3. Azure OpenAI keys (<https://azure.microsoft.com/>)
 
 ## Running Locally
 
@@ -29,7 +30,7 @@ How can I become a citizen of Ghana?
 3. When a prompt is received, the prompt is passed to chromadb which them creates embeddings and does a similarity check to retrieve results that correspond to the prompt
 4. The results together with the prompt is then passed to the llm using "rlm/rag-prompt" to make sense out of it and the response is printed to the screen.
 
-# Note
+## Note
 
 This project can be adapted for any use case, just change the pdf file to any pdf of your choice and you will have the same functionality. enjoy!
 
