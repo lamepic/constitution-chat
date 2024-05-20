@@ -15,9 +15,9 @@ This chatbot helps you learn about the constituion of ghana, it can answer any q
 ## Running Locally
 
 1. clone the repo
-2. run `sh pipenv pipenv install`
-3. run `sh pipenv pipenv shell`
-4. run `sh pipenv run python3 app.py`
+2. run `pipenv install`
+3. run `pipenv shell`
+4. run `pipenv run python3 app.py`
 
 ## Usage example
 
